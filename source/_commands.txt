@@ -1,0 +1,2 @@
+Run in DEV: bundle exec middleman
+Build: bundle exec middleman build

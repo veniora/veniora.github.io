@@ -1,0 +1,43 @@
+---
+pageable: true
+per_page: 10
+---
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<p>Welcome to my blog!<br><br>
+
+  To keep myself on track as a writer, I have a self imposed 'no tinkering' rule until I reach 5 proper blog posts. After that I'll give it a bit more of a personalised touch.
+  <br>I'm currently live thanks to <a href="https://robots.thoughtbot.com/middleman-bourbon-walkthrough"> this great tutorial</a>
+  <hr/>
+</p>
+<br>
+
+
+<!-- TODO: make each post listed inside a clickable box which highlights gently
+Also put in a separator -->
+<ul>
+  <% page_articles.each_with_index do |article, i| %>
+    <li>
+      <h2><%= link_to article.title, article %></h2>
+      <div class="blog-list-div">
+        <p><%= article.data.blurb %></p>
+      </div>
+      <h5 class="gray-font">
+          <%= article.date.strftime('%b %e, %Y') %>
+      </h5>
+      <br/>
+    </li>
+  <% end %>
+</ul>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

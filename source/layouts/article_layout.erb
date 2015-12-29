@@ -6,10 +6,14 @@
   <body>
     <%= partial "layouts/partials/nav" %>
     
-    <div class="container">      
+    <div class="container">       
+      <h1 class="text-center"><%= current_page.data.title %></h1>
+      <p class="text-center"><%= current_page.date.strftime('%b %e, %Y') %></p>
+      <hr/><br/>
       <!-- It just dumps markdown below this.-->
-      <h1><%= current_page.data.title %></h1>
       <%= yield %>
+      <hr/>
+      <%= partial "layouts/partials/article_nav_footer" %>
     </div>
     
     

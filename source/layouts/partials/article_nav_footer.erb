@@ -1,0 +1,13 @@
+<div>
+    <% if current_page.previous_article %>
+    <ul class="nav navbar-nav">
+        <li><%= link_to '&#x21FD; Previous', current_page.previous_article.url %></li>
+    </ul>
+    <% end %>
+    
+    <% if current_page.next_article %>
+    <ul class="nav navbar-nav navbar-right text-right">
+        <li><%= link_to 'Next &#x21FE;', current_page.next_article.url %></li>
+    </ul>
+    <% end %>
+</div>

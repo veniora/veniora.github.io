@@ -14,7 +14,7 @@ So what if we didn't exclude the joke ones?
 
 There are many more joke proposals than serious ones and I think that says something about the character of the country these flags are trying to represent. My favourite is the instantly recognisable Laser Kiwi! There is not a flag in the world which could be confused with it.
 
-![Laser Kiwi Flag](https://www.govt.nz/assets/flags-designs/3127-flag.png "Laser Kiwi Flag Design: A brown kiwi with a green laser firing out of its eye on a black background"){:class="img-responsive"}
+![Laser Kiwi Flag](https://www.govt.nz/assets/flags-designs/3127-flag.png "Laser Kiwi Flag Design: A brown kiwi with a green laser firing out of its eye on a black background"){:class="img-responsive center-block"}
 
 This flag ironically makes me feel more national pride than any serious design ever could. What audacity to fly that flag on the world stage. See already how [the Australians laugh at it](https://au.tv.yahoo.com/sunrise/video/watch/28307476/what-about-a-new-flag-eh-bro/). Now imagine that flag flying one place higher than theirs at the next world cup or Olympics. What a time to be alive!
 
@@ -26,10 +26,8 @@ New Zealand thrives on being the underdog. There is no other flag which could so
 
 * I am not totally without my wits. It is clearly a joke and will never fly - as sad as that is. The actual design could be taken at least from MS Paint to Photoshop level but I like the spirit of it.
 
-*Just to add an argument against it - this particular one runs the risk of 'shining lasers into Kiwi's eyes' becoming a symbol of protest. That is clearly not to be encouraged.*
-
 * Also, both the USA and Great Briton flags do break the generic trend and are pretty nice.
 
 * If we do have to choose a 'serious flag', this one [created by the talented Denise Fung of Christchurch](http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=11471215 "Red, white and blue design with a stylised fern running along the diagonal and white stars on blue") is looking pretty good too.
 
-![Proposed flag](http://media.nzherald.co.nz/webcontent/image/jpg/201526/Nz_620x310.jpg){:class="img-responsive"}
+![Proposed flag](http://media.nzherald.co.nz/webcontent/image/jpg/201526/Nz_620x310.jpg){:class="img-responsive center-block"}

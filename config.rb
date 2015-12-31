@@ -70,7 +70,11 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
   
+  activate :minify_html
+#   activate :imageoptim (not working in 4.0 yet)
+  
   activate :relative_assets
+  activate :gzip
 end
 
 # Pretty URLs

@@ -1,1 +1,0 @@
-Include anything static into pages from here. Try and keep anything specific to me out of the layouts so it can be copied

@@ -1,5 +1,5 @@
 ---
-pageable: true
+pageable: false
 per_page: 10
 ---
 <% if paginate && num_pages > 1 %>
@@ -10,31 +10,30 @@ per_page: 10
   <% end %>
 <% end %>
 
-<p>Welcome to my blog!<br><br>
+<!-- Anything on this site was taking up too much space in my brain -->
+<!-- If my brain was better, this site wouldn't need to exist-->
+<!-- The following ideas were too jumbled for my actual brain so I've attempted to make sense of them here. -->
+<div class="page-header">
+  <p>This is where I store the overflow from my brain <br><small>(which is also in greyscale)</small></p>
+</div>
 
-  To keep myself on track as a writer, I have a self imposed 'no tinkering' rule until I reach 5 proper blog posts. After that I'll give it a bit more of a personalised touch.
-  <br>I'm currently live thanks to <a href="https://robots.thoughtbot.com/middleman-bourbon-walkthrough"> this great tutorial</a>
-  <hr/>
-</p>
-<br>
+<!-- List all posts (titles only) -->
+<% if page_articles.length > 0 %>
+<div class="panel panel-default">
+  <div class="panel-heading">Recent Posts</div>
 
-
-<!-- TODO: make each post listed inside a clickable box which highlights gently
-Also put in a separator -->
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li>
-      <h2><%= link_to article.title, article %></h2>
-      <div class="blog-list-div">
-        <p><%= article.data.blurb %></p>
-      </div>
-      <h5 class="gray-font">
-          <%= article.date.strftime('%b %e, %Y') %>
-      </h5>
-      <br/>
-    </li>
-  <% end %>
-</ul>
+  <!-- List group -->
+  <div class="list-group">
+    <% page_articles.each_with_index do |article, i| %>
+    <% link_to article do %>
+      <a href="<%= article.url %>" class="list-group-item" >
+        <h4 class="list-group-item-heading"><%= article.title %></h4>
+      </a>
+    <% end %>
+    <% end %>
+  </div>
+</div>
+<% end %>
 
 <% if paginate %>
   <% if next_page %>

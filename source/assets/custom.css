@@ -10,7 +10,7 @@ body {
   line-height: 1.55;
   /*color: #333;*/
   /*background-color: #fff;*/
-  -webkit-font-smoothing: antialiased;
+  -font-smoothing: antialiased;
 }
 
 p {

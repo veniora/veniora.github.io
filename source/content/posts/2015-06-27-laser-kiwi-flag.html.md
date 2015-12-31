@@ -1,5 +1,5 @@
 ---
-title: Laser Kiwi Flags for All
+title: Laser Kiwi Flag has My Vote
 date: 2015-06-27 22:36 UTC
 tags:
 blurb: I don't hate some of the new New Zealand flag designs

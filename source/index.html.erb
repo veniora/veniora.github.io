@@ -26,10 +26,11 @@ per_page: 10
   <div class="list-group">
     <% page_articles.each_with_index do |article, i| %>
     <% link_to article do %>
-      <a href="<%= article.url %>" class="list-group-item" >
-        <h4 class="list-group-item-heading"><%= article.title %></h4>
+      <a href="<%= article.url %>" class="list-group-item clearfix" >
+        <span class="list-group-item-heading"><%= article.title %></span>
+        <span class="pull-right small hidden-xs"><%= article.date.strftime('%b %e %Y') %></span>
       </a>
-    <% end %>
+    <% end %>    
     <% end %>
   </div>
 </div>

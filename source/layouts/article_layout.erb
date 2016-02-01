@@ -9,6 +9,7 @@
     <div class="container">       
       <h1 class="text-center"><%= current_page.data.title %></h1>
       <p class="text-center"><%= current_page.date.strftime('%b %e, %Y') %></p>
+      <% if !current_page.published? %><p class="text-center">(DRAFT)</p> <% end %>
       <hr/><br/>
       <!-- It just dumps markdown below this.-->
       <%= yield %>

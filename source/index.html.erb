@@ -28,7 +28,9 @@ per_page: 10
     <% link_to article do %>
       <a href="<%= article.url %>" class="list-group-item clearfix" >
         <span class="list-group-item-heading"><%= article.title %></span>
-        <span class="pull-right small hidden-xs"><%= article.date.strftime('%b %e %Y') %></span>
+        <span class="pull-right small hidden-xs">
+          <% if !article.published? %>(DRAFT) <% else %> <%= article.date.strftime('%b %e %Y') %><% end %>
+        </span>
       </a>
     <% end %>    
     <% end %>

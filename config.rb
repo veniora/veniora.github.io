@@ -33,6 +33,7 @@ activate :blog do |blog|
   blog.sources = "content/posts/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "article_layout"
+  blog.new_article_template = "source/layouts/article_layout.erb"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
